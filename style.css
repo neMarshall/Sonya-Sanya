@@ -151,28 +151,34 @@ content > .left > img {
 }
 .footer {
     width: 100%;
-    height: 250px;
+    height: 300px;
     background-color: #222222;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     color: #c3c3c3;
     font-size: 16px;
+    padding-top: 60px;
 }
 .address {
-    margin-left: 300px;
-    margin-top: 40px;
 }
 #address {
     margin-bottom: 20px;
     border-bottom: 3px solid #53e700;
-    max-width: 85%;
+    max-width: 90%;
 }
 #contakt{
-    margin-bottom: 20px;
     border-bottom: 3px solid #b31beb;
     max-width: 83%;
+    margin-bottom: 20px;
 }
 .contakt{
-    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.created {
+    margin: 0 auto;
+    position: absolute;
+    top: calc(100% - 20px);
+    color: #636363;
 }
 
