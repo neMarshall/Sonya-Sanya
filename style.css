@@ -6,11 +6,11 @@
 	padding: 0;
 }
 .page {
-    overflow: hidden;
-    display: grid;
-    grid-template-areas: "header" "content" "footer";
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+	overflow: hidden;
+	display: grid;
+	grid-template-areas: "header" "content" "footer";
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
 }
 body {
 	font-size: 15px;
@@ -20,7 +20,7 @@ body {
 
 .menu {
 	width: 17%;
-    min-width: 341px;
+	min-width: 341px;
 	max-width: 500px;
 	height: 800px;
 	margin: 0;
@@ -28,16 +28,16 @@ body {
 }
 
 .main-box {
-    height: 800px;
-    width: 100%
+	height: 800px;
+	width: 100%
 }
 
 .text {
-    font-weight: bold;
-    font-size: 90px;
-    color: #dadfdb;
-    margin: 140px 50px;
-    letter-spacing: 4pt;
+	font-weight: bold;
+	font-size: 90px;
+	color: #dadfdb;
+	margin: 140px 50px;
+	letter-spacing: 4pt;
 }
 
 .back-header {
@@ -52,8 +52,8 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 100;
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .logo {
@@ -69,7 +69,7 @@ body {
 	display: block;
 	text-align: center;
 	margin-top: 80px;
-    transition: color 0.3s;
+	transition: color 0.3s;
 }
 
 .link:hover {
@@ -91,7 +91,7 @@ content {
 	background-image: url("img/bg.png");
 	background-position: top right;
 	background-repeat: no-repeat;
-    box-shadow: inset 0 45px 45px  -45px #000;
+	box-shadow: inset 0 45px 45px  -45px #000;
 }
 
 content > .left {
@@ -113,7 +113,7 @@ content > .left > img {
 }
 
 .menutitle {
-    color: #636363;
+	color: #636363;
 	top: 144px;
 	right: 45px;
 	position: relative;
@@ -121,7 +121,7 @@ content > .left > img {
 }
 
 .menutext {
-    color: #636363;
+	color: #636363;
 	top: 194px;
 	right: 37px;
 	position: relative;
@@ -133,7 +133,7 @@ content > .left > img {
 }
 
 #button {
-    transition: color 0.3s;
+	transition: color 0.3s;
 	font-size: 30px;
 	padding-top: 37px;
 	padding-bottom: 37px;
@@ -147,38 +147,38 @@ content > .left > img {
 	color: #636363;
 }
 #button:hover{
-    color: #b31beb;
+	color: #b31beb;
 }
 .footer {
-    width: 100%;
-    height: 300px;
-    background-color: #222222;
-    display: flex;
-    justify-content:center;
-    color: #c3c3c3;
-    font-size: 16px;
-    padding-top: 60px;
+	width: 100%;
+	height: 300px;
+	background-color: #222222;
+	display: flex;
+	justify-content:center;
+	color: #c3c3c3;
+	font-size: 16px;
+	padding-top: 60px;
 }
 .address {
 }
 #address {
-    margin-bottom: 20px;
-    border-bottom: 3px solid #53e700;
-    max-width: 90%;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #53e700;
+	max-width: 90%;
 }
 #contakt{
-    border-bottom: 3px solid #b31beb;
-    max-width: 83%;
-    margin-bottom: 20px;
+	border-bottom: 3px solid #b31beb;
+	max-width: 83%;
+	margin-bottom: 20px;
 }
 .contakt{
-    margin-left: 200px;
-    margin-right: 200px;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 .created {
-    margin: 0 auto;
-    position: absolute;
-    top: calc(100% - 20px);
-    color: #636363;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 10px;
+	color: #636363;
 }
 
