@@ -44,7 +44,7 @@ body {
 
 .back-header {
 	height: 100vh;
-	background: url("img/head.png") center no-repeat;
+	background: url(../img/head.png) center no-repeat;
 	background-size:cover;
 }
 
@@ -187,7 +187,7 @@ content p, .menutitle {
 #button {
 	text-decoration: none;
 	font-size: 30px;
-	top: 300px;
+	top: 305px;
 	width: 200px;
 	height: 100px;
 	color: #636363;
