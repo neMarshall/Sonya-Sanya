@@ -25,13 +25,12 @@ body {
 	height: 100vh;
 	border-right: solid 3px #c3c3c3;
 	padding: 40px;
-    display: flex;
+    transition: 1s;
 }
 
 .main-box {
 	height: 100vh;
-	width: 100%;
-    display: flex;
+	width: 100%
 }
 
 .text {
@@ -136,15 +135,15 @@ body {
 }
 
 content {
+    display: flex;
 	width: 100%;
 	height: 700px;
-	display: block;
 	background-image: url("img/bg.png");
 	background-position: top right;
 	background-repeat: no-repeat;
 	box-shadow: inset 0 45px 45px  -40px #000;
-    display: flex;
     justify-content: center;
+    padding-top: 100px;
 }
 
 content > .left {
@@ -152,7 +151,6 @@ content > .left {
 	width: auto;
 	height: auto;
 	color: #636363;
-    margin-top: 100px;
 }
 
 content > .right {
@@ -160,38 +158,30 @@ content > .right {
 	width: auto;
 	height: auto;
 }
-content p, .menutitle {
-    margin-left: 35px;
-}
+
+
 
 .menutitle {
 	color: #636363;
-	top: 144px;
-	right: 45px;
 	position: relative;
 	font-size: 70px;
+    margin-bottom: 80px;
 }
 
 .menutext {
 	color: #636363;
-	top: 194px;
-	right: 37px;
 	position: relative;
 	font-size: 20px;
-}
-
-.menutext > p {
-	letter-spacing: 1pt;
+    letter-spacing: 1pt;
 }
 
 #button {
 	text-decoration: none;
 	font-size: 30px;
-	top: 305px;
+	top: 125px;
 	width: 200px;
 	height: 100px;
 	color: #636363;
-    border: solid 3px transparent;
 	padding-left: 70px;
 	padding-right: 70px;
 	padding-top: 25px;
@@ -199,9 +189,8 @@ content p, .menutitle {
 	transition: color 0.3s;
 	text-align: center;
 	position: relative;
-    border: solid 3px #b31beb;
+    border: solid 3px #636363;
 }
-
 
 #button:hover {
     color: #53e700;
@@ -212,14 +201,15 @@ content p, .menutitle {
 	display: flex;
 	justify-content: space-evenly;
 	color: #c3c3c3;
-	font-size: 16px;
-	padding-top: 40px;
+	font-size: 14px;
+	padding-top: 30px;
 }
 
 footer {
 	width: 100%;
-	height: 260px;
+	height: 210px;
 	background-color: #222222;
+    z-index: 99;
 }
 
 #address {
@@ -242,5 +232,5 @@ footer {
 .created {
 	color: #636363;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 10px;
 }
