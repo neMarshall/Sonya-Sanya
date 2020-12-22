@@ -38,6 +38,12 @@ body {
 	align-items: center;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .logo {
 	display: block;
 	image-orientation: center;
@@ -48,7 +54,7 @@ body {
 .link{
 	text-decoration: none;
 	color: #dadfdb;
-	font-size: 22px;
+	font-size: 18px;
 	margin: 0 30px 0 60px;
 	transition: 1.2s;
 }
@@ -59,9 +65,35 @@ body {
 	margin-bottom: 20px;
 }
 
+.login-reg{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin: 0 30px 0 60px;
+}
+
+.login {
+    text-decoration: none;
+    color: #dadfdb;
+    padding-left: 71.5px;
+	padding-right: 71.5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    border: 3px solid #53e700;
+}
+
+.reg {
+    text-decoration: none;
+    color: #dadfdb;
+    padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    border: 3px solid #b31beb;
+}
+
 content{
 	width: 100%;
-    height: 400px;;
 	padding-top: 40px;
 	background-color: #f1f1f1;
 	height: 100vh;
@@ -113,21 +145,20 @@ content{
 #footer {
 	background-color: #222222;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	color: #c3c3c3;
-	font-size: 14px;
+	font-size: 13px;
 	padding-top: 30px;
 }
 
 footer {
 	width: 100%;
-	height: 210px;
+	height: 190px;
 	background-color: #222222;
 	z-index: 99;
 }
 
 #address {
-	margin-bottom: 20px;
 	border-bottom: 3px solid #53e700;
 	max-width: 90%;
 }
@@ -135,7 +166,6 @@ footer {
 #contact {
 	border-bottom: 3px solid #b31beb;
 	max-width: 83%;
-	margin-bottom: 20px;
 }
 
 .contact {
@@ -146,5 +176,5 @@ footer {
 .created {
 	color: #636363;
 	text-align: center;
-	margin-top: 10px;
+    font-size: 10px;
 }
