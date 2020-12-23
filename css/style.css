@@ -18,6 +18,17 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+/* ======== Хедер ==========*/
+
+.header {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+}
+
 .menu {
 	width: 17%;
 	min-width: 341px;
@@ -48,6 +59,14 @@ body {
 	padding-top: 15px;
 	padding-bottom: 15px;
     border: 3px solid #53e700;
+    transition: padding 0.3s;
+}
+
+.login:hover {
+    padding-left: 65.5px;
+	padding-right: 65.5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .reg {
@@ -58,6 +77,14 @@ body {
 	padding-top: 15px;
 	padding-bottom: 15px;
     border: 3px solid #b31beb;
+    transition: padding 0.3s;
+}
+
+.reg:hover {
+    padding-left: 34px;
+	padding-right: 34px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .text {
@@ -74,15 +101,6 @@ body {
 	background-size:cover;
 }
 
-.header {
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 100;
-	display: flex;
-}
-
 .logo {
 	display: block;
 	image-orientation: center;
@@ -92,12 +110,12 @@ body {
 .link {
 	text-decoration: none;
 	color: #c3c3c3;
-	font-size: 20px;
+	font-size: 24px;
 	margin: 0 auto;
 	display: block;
 	text-align: center;
 	margin-top: 80px;
-	transition: color 0.3s;
+	transition: color 0.5s;
 }
 
 .link:hover {
@@ -161,6 +179,8 @@ body {
 	text-align: center;
 }
 
+/* ======== Контент ==========*/
+
 content {
     display: flex;
 	width: 100%;
@@ -185,8 +205,6 @@ content > .right {
 	width: auto;
 	height: auto;
 }
-
-
 
 .menutitle {
 	color: #636363;
@@ -222,6 +240,8 @@ content > .right {
 #button:hover {
     border-color: #53e700;
 }
+
+/* ======== Футер ==========*/
 
 #footer {
 	background-color: #222222;
